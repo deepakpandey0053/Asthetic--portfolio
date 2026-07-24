@@ -70,7 +70,7 @@ function it({
     var ge, we;
     if (S) return;
     const o = c.target;
-    if (o.closest('[contenteditable="true"], button, a, input, textarea, select')) return;
+    if (o.closest('[contenteditable="false"], button, a, input, textarea, select')) return;
     const y = (ge = j.current) == null ? void 0 : ge.getBoundingClientRect();
     if (!y) return;
     const L = y.left + y.width / 2, P = (c.clientX - y.left) / y.width;
