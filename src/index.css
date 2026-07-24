@@ -18,3 +18,17 @@ body,
 body {
   font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
 }
+/* Disable all editing and pointer interactions on editable text */
+[contenteditable="true"], 
+[contenteditable="false"],
+input, 
+textarea {
+  pointer-events: none !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+}
+
+/* Ensure book pages remain interactive for flip/navigation */
+.book, .page, button {
+  pointer-events: auto !important;
+}
