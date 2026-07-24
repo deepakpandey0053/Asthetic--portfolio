@@ -1,0 +1,22 @@
+<svg width="480" height="480" viewBox="0 0 480 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="480" height="480" rx="64" fill="#FFF5F0"/>
+  <rect x="28" y="28" width="424" height="424" rx="48" fill="url(#bg)"/>
+  <circle cx="240" cy="196" r="104" fill="#FFF7EF"/>
+  <path d="M140 332C154 264 186 226 240 226C294 226 326 264 340 332" fill="#F4A6A3"/>
+  <circle cx="240" cy="188" r="72" fill="#F6C7A8"/>
+  <path d="M182 187C182 144 212 116 240 116C268 116 298 144 298 187V195H182V187Z" fill="#5A3A2B"/>
+  <path d="M194 182C194 154 214 132 240 132C266 132 286 154 286 182V200H194V182Z" fill="#6B4A37"/>
+  <rect x="168" y="206" width="144" height="72" rx="36" fill="#F7D0B4"/>
+  <rect x="176" y="212" width="128" height="56" rx="28" fill="#F0B58C"/>
+  <circle cx="220" cy="196" r="8" fill="#5A3A2B"/>
+  <circle cx="260" cy="196" r="8" fill="#5A3A2B"/>
+  <path d="M214 232C224 244 256 244 266 232" stroke="#A65D45" stroke-width="8" stroke-linecap="round"/>
+  <text x="240" y="404" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#6D3E2D">DP</text>
+  <defs>
+    <linearGradient id="bg" x1="84" y1="80" x2="392" y2="418" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3A6C2"/>
+      <stop offset="0.5" stop-color="#F7C79C"/>
+      <stop offset="1" stop-color="#8EC5E8"/>
+    </linearGradient>
+  </defs>
+</svg>
